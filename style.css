@@ -1,0 +1,89 @@
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f7c9e3, #ffefd5);
+    color: #333;
+  }
+  
+  header {
+    background-color: #4a148c;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #ffd700;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #4a148c;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  /* Cartões dos personagens */
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    margin: 10px auto;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  /* Seção das lanternas */
+  .lanternas {
+    background: url('https://i.imgur.com/n7rPbmf.jpg') no-repeat center/cover;
+    height: 300px;
+    border-radius: 20px;
+    margin: 20px auto;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4a148c;
+    color: #ffd700;
+    font-size: 1rem;
+  }
+  
+.card img{
+    width: 200px;
+}
